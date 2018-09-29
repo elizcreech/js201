@@ -7,21 +7,21 @@
 // *****
 // *****
 // *****
-// function makeSquare (size){
-//     var line = 0
-//     var boxFiller = ''
-//     var width = 0
-//     while (line <= size){
-//         while (width < size){
-//             boxFiller = boxFiller+'*'
-//             width++
-//         }
-//         console.log(boxFiller)
-//         line++        
-//     }
-//     return boxFiller
-// }
-// makeSquare(10)
+function makeSquare (size){
+    var line = 0
+    var boxFiller = ''
+    var width = 0
+    while (line <= size){
+        while (width < size){
+            boxFiller = boxFiller+'*'
+            width++
+        }
+        console.log(boxFiller)
+        line++        
+    }
+    return boxFiller
+}
+makeSquare(10)
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "makeBox" which is given a width and height and returns a
@@ -72,23 +72,23 @@ makeBox(6,4)
 // ****************************
 // * Welcome to DigitalCrafts *
 // ****************************
-// function makeBanner (someText){
-//     var bannerText    
-//     var lengthOfText = someText.length
-//     console
-//     var headerFooter = ''
-//     var i
-//     // Compose the header and footer
-//     for(i=1; i <= lengthOfText+4; i++)
-//     {
-//         headerFooter = headerFooter+'*'
-//     } 
-//     // Compose the text line of the banner
-//     bannerText = '* '+someText+' *'
-//     //Print the banner
-//     console.log(headerFooter)
-//     console.log(bannerText)
-//     console.log(headerFooter)
-//     return bannerText
-// }
-// makeBanner('Welcome to DigitalCrafts')
+function makeBanner (someText){
+    var bannerText    
+    var lengthOfText = someText.length
+    console
+    var headerFooter = ''
+    var i
+    // Compose the header and footer
+    for(i=1; i <= lengthOfText+4; i++)
+    {
+        headerFooter = headerFooter+'*'
+    } 
+    // Compose the text line of the banner
+    bannerText = '* '+someText+' *'
+    //Print the banner
+    console.log(headerFooter)
+    console.log(bannerText)
+    console.log(headerFooter)
+    return bannerText
+}
+makeBanner('Welcome to DigitalCrafts')
